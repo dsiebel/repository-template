@@ -1,3 +1,5 @@
+# docs: https://github.com/casey/just/
+# cheat-sheet: https://cheatography.com/linux-china/cheat-sheets/justfile/
 set shell := ["bash", "-euo", "pipefail", "-c"]
 set dotenv-load
 set positional-arguments
