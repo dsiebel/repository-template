@@ -1,0 +1,8 @@
+# $HOME/.gitignore should cover all OS, IDE and git-related metadata file already.
+# https://www.toptal.com/developers/gitignore/api/macos,linux,git,direnv,visualstudiocode,vim,sublimetext,jetbrains
+#
+# e.g.
+# - Golang: https://www.toptal.com/developers/gitignore/api/go
+# - Terraform: https://www.toptal.com/developers/gitignore/api/terraform
+# - Helm: https://www.toptal.com/developers/gitignore/api/helm
+# - Home Assistant: https://www.toptal.com/developers/gitignore/api/homeassistant
