@@ -1,0 +1,17 @@
+{
+	"name": "devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"skellock.just",
+				"yzhang.markdown-all-in-one",
+				"redhat.vscode-yaml",
+				"EditorConfig.EditorConfig",
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
