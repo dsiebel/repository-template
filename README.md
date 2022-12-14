@@ -1,2 +1,3 @@
-# just-bootstrap
-Basic setup for projects using Justfiles 
+# repository-template
+
+Basic setup for repositories.
