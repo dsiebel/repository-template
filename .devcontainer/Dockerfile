@@ -33,6 +33,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
   && apt-get clean -y \
   && rm -rf /var/lib/apt/lists/*
 
+RUN pip install wildq
+
 ARG JUST_VERSION=1.9.0
 RUN curl -SLo just.tar.gz https://github.com/casey/just/releases/download/${JUST_VERSION}/just-${JUST_VERSION}-$(uname -m)-unknown-linux-musl.tar.gz \
     && tar -xzf just.tar.gz \
