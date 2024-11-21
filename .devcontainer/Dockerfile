@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/debian
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
 LABEL org.opencontainers.image.authors="https://github.com/dsiebel"
 LABEL org.opencontainers.image.description="DevContainer base image"
@@ -35,7 +35,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 
 RUN pip install wildq
 
-ARG JUST_VERSION=1.9.0
+ARG JUST_VERSION=1.37.0
 RUN curl -SLo just.tar.gz https://github.com/casey/just/releases/download/${JUST_VERSION}/just-${JUST_VERSION}-$(uname -m)-unknown-linux-musl.tar.gz \
     && tar -xzf just.tar.gz \
     && install just /usr/local/bin/ \

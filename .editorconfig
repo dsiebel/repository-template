@@ -15,5 +15,8 @@ trim_trailing_whitespace    = true
 [*.md]
 trim_trailing_whitespace    = false
 
-[{Justfile,justfile,.justfile}]
+[{Justfile,justfile,.justfile,Makefile,*.mk}]
 indent_style                = tab
+
+[{*.yaml,*.yml}]
+quote_type                  = single
